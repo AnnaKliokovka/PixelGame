@@ -301,7 +301,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,6 +309,27 @@ TextureImporter:
       bones: []
       spriteID: 8f993b457b0de78498cbd3ebd38f7d3d
       internalID: 1715518815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4485c7ae1276a488903426eaf8fea5
+      internalID: -771145958
       vertices: []
       indices: 
       edges: []
@@ -333,6 +354,7 @@ TextureImporter:
       desk: 209922412
       Floor_coridor: 1715518815
       floor: -96221675
+      Block: -771145958
       newfloor: 1101908497
   spritePackingTag: 
   pSDRemoveMatte: 0

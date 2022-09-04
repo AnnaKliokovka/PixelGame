@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Blocking
+  - Actor
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: Furniture
     uniqueID: 36706729
+    locked: 0
+  - name: Blocking
+    uniqueID: 4188367001
     locked: 0

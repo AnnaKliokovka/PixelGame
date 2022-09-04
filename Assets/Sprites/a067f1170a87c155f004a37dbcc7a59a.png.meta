@@ -322,7 +322,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,6 +330,48 @@ TextureImporter:
       bones: []
       spriteID: ea4485c7ae1276a488903426eaf8fea5
       internalID: -771145958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Left
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c5bb2ac60094d41b8ba1df60968fc1
+      internalID: -1574230083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8255614eebf09429d5fd0ac57e184f
+      internalID: 1951556168
       vertices: []
       indices: 
       edges: []
@@ -348,11 +390,13 @@ TextureImporter:
       door: 417489184
       girl: 1152899253
       floor_down: 1841428643
+      Girl_Left: -1574230083
       floor_vertical: -1372042791
       player_0: 1023852796
       boy: 454566076
       desk: 209922412
       Floor_coridor: 1715518815
+      Boy_left: 1951556168
       floor: -96221675
       Block: -771145958
       newfloor: 1101908497

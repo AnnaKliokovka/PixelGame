@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour
 {
-    public GameObject pointTeleport;
-    public Vector3 delta;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.transform.position = pointTeleport.gameObject.transform.position + delta;
+            GameObject.Find("FloorCheck").GetComponent<Canvas>().enabled = true;
+            //collision.gameObject.transform.position = pointTeleport.gameObject.transform.position + delta;
         }
     }
 }

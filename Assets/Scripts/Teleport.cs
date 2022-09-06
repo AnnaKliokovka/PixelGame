@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Teleport : MonoBehaviour
+public class Teleport : Collidable
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected override void OnCollide(Collider2D coll)
     {
-        if (collision.gameObject.tag == "Player")
+        if (coll.gameObject.tag == "Player")
         {
             GameObject.Find("FloorCheck").GetComponent<Canvas>().enabled = true;
             //collision.gameObject.transform.position = pointTeleport.gameObject.transform.position + delta;

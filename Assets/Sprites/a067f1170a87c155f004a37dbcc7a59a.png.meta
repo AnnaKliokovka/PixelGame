@@ -364,7 +364,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,6 +372,69 @@ TextureImporter:
       bones: []
       spriteID: 2d8255614eebf09429d5fd0ac57e184f
       internalID: 1951556168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 363
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 4, z: 0, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9fdc6bcf5a9124a92d184f2bb11e5d
+      internalID: -958891814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closeChest
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53155947, y: 0.48737526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7300cc5e75185d54d8ee7379f5550ca7
+      internalID: -758858574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: openChest
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6589aa98920e0488a6b0be5e90ba96
+      internalID: -752362328
       vertices: []
       indices: 
       edges: []
@@ -387,8 +450,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      closeChest: -758858574
       door: 417489184
       girl: 1152899253
+      tree: -958891814
+      openChest: -752362328
       floor_down: 1841428643
       Girl_Left: -1574230083
       floor_vertical: -1372042791

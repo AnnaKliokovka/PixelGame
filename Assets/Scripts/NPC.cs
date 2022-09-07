@@ -6,6 +6,6 @@ public class NPC : Collidable
 {
     protected override void OnCollide(Collider2D coll)
     {
-        print("Talking...");
+        //GameManager.instance.ShowText("Приветик!", 20, Color.green, transform.position, Vector3.up * 50, 3.0f);
     }
 }

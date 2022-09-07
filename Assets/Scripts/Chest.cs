@@ -7,6 +7,7 @@ public class Chest : Collectable
     public Sprite emptyChest;
     public int pesosAmount = 5;
 
+
     protected override void OnCollect()
     {
         //GameManager.instance.ShowText();
@@ -14,7 +15,7 @@ public class Chest : Collectable
         {
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
-            GameManager.instance.ShowText("+" + pesosAmount + " деняк", 20, Color.green,transform.position, Vector3.up*50,3.0f);
+            GameManager.instance.ShowText("+" + pesosAmount + " деняк", 20, Color.green,transform.position, Vector3.up*25,1.5f);
         }
     }
 }

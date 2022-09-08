@@ -6,7 +6,7 @@ public class Teleport : Collidable
 {
     protected override void OnCollide(Collider2D coll)
     {
-        if (coll.gameObject.tag == "Player")
+        if (coll.gameObject.name == "Player")
         {
             GameObject.Find("FloorCheck").GetComponent<Canvas>().enabled = true;
             //collision.gameObject.transform.position = pointTeleport.gameObject.transform.position + delta;

@@ -19,7 +19,7 @@ public class FloorMenu : MonoBehaviour
         GameObject.Find("FloorCheck").GetComponent<Canvas>().enabled = false; 
         lastFloor = n;
         Camera.main.GetComponent<SchoolInfo>().FloorNow = n;
-        GameObject.Find("player_0").transform.position = Teleporters[lastFloor-1].transform.position + new Vector3(0.4f, 0, 0);
+        GameObject.Find("Player").transform.position = Teleporters[lastFloor-1].transform.position + new Vector3(0.4f, 0, 0);
         Buttons[Camera.main.GetComponent<SchoolInfo>().FloorNow - 1].GetComponent<Button>().interactable = false;
 
     }

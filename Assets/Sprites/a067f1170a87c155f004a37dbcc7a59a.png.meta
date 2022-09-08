@@ -427,7 +427,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,6 +435,48 @@ TextureImporter:
       bones: []
       spriteID: 4b6589aa98920e0488a6b0be5e90ba96
       internalID: -752362328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mob
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a57b66d7bc4af14b9202db4ef2a022e
+      internalID: 167742079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sward
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 324
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39acf2700435a5645aad988f18667ab2
+      internalID: -1637452009
       vertices: []
       indices: 
       edges: []
@@ -455,6 +497,7 @@ TextureImporter:
       girl: 1152899253
       tree: -958891814
       openChest: -752362328
+      mob: 167742079
       floor_down: 1841428643
       Girl_Left: -1574230083
       floor_vertical: -1372042791
@@ -463,6 +506,7 @@ TextureImporter:
       desk: 209922412
       Floor_coridor: 1715518815
       Boy_left: 1951556168
+      sward: -1637452009
       floor: -96221675
       Block: -771145958
       newfloor: 1101908497

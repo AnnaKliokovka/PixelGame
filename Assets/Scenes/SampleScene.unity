@@ -38828,13 +38828,14 @@ GameObject:
   - component: {fileID: 577583049}
   - component: {fileID: 577583051}
   - component: {fileID: 577583050}
+  - component: {fileID: 577583052}
   m_Layer: 0
   m_Name: sward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &577583048
 Transform:
   m_ObjectHideFlags: 0
@@ -38938,7 +38939,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577583047}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -38957,6 +38958,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.08, y: 0.22}
   m_EdgeRadius: 0
+--- !u!95 &577583052
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577583047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0b446f855de55d840941e838b4042be9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &595836686
 GameObject:
   m_ObjectHideFlags: 0
@@ -52363,7 +52384,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   damage: 1
-  pushForce: 10
+  pushForce: 5
 --- !u!1 &1799524290
 GameObject:
   m_ObjectHideFlags: 0
